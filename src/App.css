@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+
+.navbar {
+  width: 100%;
+  background: rgb(8, 150, 150);
+  background-color: black;
+   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.navbar ul li img {
+  width: 50px;
+  height: auto;
+
+}
+
+.navbar ul li.active {
+  > a {
+      color: #e44c90;
+  }
+
+}
+.navbar ul li a {
+  text-decoration: none;
+  font-size: 30px;
+  font-family: 'Playfair Display', serif;
+  margin: 40px;
+  font-weight: bold;
+  background: linear-gradient(to right, rgb(190, 134, 214), rgb(230, 124, 195));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
+
+
+
+
+
+.navbar ul li:hover{ animation: hu__hu__ infinite 2s ease-in-out }
+@keyframes hu__hu__ {
+    50% { transform: translateY(25px) }
+  
+}
+
+.navbar img {
+  object-fit: fill;
+  width: 300px;
+  height: auto;
+  width: 170px;
+}
+
+.hero {
+  font-size: 35px;
+  margin: 40px;
+  background: linear-gradient(to right, rgb(190, 134, 214), rgb(230, 124, 195));
+  -webkit-background-clip: text;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+  -webkit-text-fill-color: transparent; 
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+
+.about {
+  font-size: 35px;
+  margin: 40px;
+  font-family: 'Playfair Display', serif;
+  background: linear-gradient(to right, rgb(190, 134, 214), rgb(230, 124, 195));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+
+
+.contact {
+  font-size: 35px;
+  margin: 40px;
+  font-family: 'Playfair Display', serif; 
+  background: linear-gradient(to right, rgb(190, 134, 214), rgb(230, 124, 195));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+
+
